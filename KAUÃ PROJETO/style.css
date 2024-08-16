@@ -1,0 +1,30 @@
+header{ 
+    padding: 20px;
+    font-size: 80px;
+     }
+     body{
+        color: blueviolet(90,279,225);
+        img{
+            border: 5px solid red;
+        }
+    }
+    html{
+        background-color: cyan
+    }
+    section{
+        display: flex
+    }
+
+    .seletor{display:flex;
+        overflow:auto;
+        gap:20px;
+
+    }
+    img{height: 200px;
+    }
+    .seletor img{
+        opacity: 0.5;
+    }
+    .seletor img:hover{
+        opacity:1.0;
+    }   
